@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 10vw;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.active-player {
+  background-color: blue;
+}
+
+.player-win {
+  background-color: green;
+}
+
+button {
+  cursor: pointer;
+}
+
+.score--0,
+.score--1 {
+  font-size: 45px;
+}
